@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+body {
+    background: linear-gradient(135deg, #276bff, #7e22ce);
+    padding: 60px 0;
+    background-repeat: no-repeat;
+}
+
+button {
+background: rgb(212, 191, 3);
+-webkit-box-shadow: 10px 10px 0px 0px #000000; 
+box-shadow: 10px 10px 0px 0px #000000;
+border: 0px;
+
+}
+
+button:hover {
+    background-color: red;
+    
+}
+
+button:active{
+
+    box-shadow: 0px 0px ;
+    transform: translateY(10px);
+}
+
+
+.rock:hover {
+    background-color: #6d6d6d;
+}
+
+.rock:active {
+    background-color: #1f201f;
+}
+
+.paper:hover {
+background-color: aqua;
+}
+
+.paper:active {
+    background-color: rgb(6, 95, 95);
+}
+
+.scissors:hover {
+    background-color: rgb(255, 0, 0);
+}
+
+.scissors:active {
+    background-color: rgb(151, 22, 22);
+}
+
+.btn:hover {
+    background-color: black;
+}
+
+
+.score {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 50%;
+}
